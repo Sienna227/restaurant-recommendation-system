@@ -1,0 +1,4 @@
+Pillow
+folium
+geopy
+osmnx
