@@ -46,3 +46,32 @@ This project was developed as part of a university course. Running the complete 
 - Working with structured CSV data
 - Implementing location-related data processing
 - Integrating recommendation logic with map visualization
+## Setup
+
+### Requirements
+
+- Python 3.10 or a compatible version supported by the listed packages
+- A working Tkinter installation
+- Required CSV data files for the selected feature
+- Internet access for geocoding and map-related features
+
+### Install Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Run the GUI
+
+```bash
+python main_ui.py
+```
+
+The GUI provides options for random recommendations, favorites, customized recommendations, and settings. Some options may require additional local data files and the C recommendation program.
+
+### Run Notes
+
+- `Restaurant_core.csv` and `Restaurant_runtime.csv` contain restaurant data used by the project.
+- Map and route features may require additional input CSV files, location data, and access to external map services.
+- `user_settings.txt` and other local configuration or cache files may be generated during execution.
+- The project has not been verified as a clean installation on every operating system. Additional configuration may be required.
